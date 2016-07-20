@@ -1,0 +1,114 @@
+/* Google Fonts
+font-family: 'Chonburi', serif;
+font-family: 'Lato', sans-serif;
+*/
+
+
+/* background color for the pages is a a mustard color using the hex code*/
+body {
+	background-color:#2e2e2e;
+	text-align:center;
+	margin: 0 20% 0% 20%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 960px;
+}
+
+/* style for the header that will apear on every page*/
+header {
+        height: auto;
+        width:960px;
+        text-align: center;
+        margin:0 auto;
+        z-index: 1;
+} 
+
+header img {
+        margin-top: 34px;
+}
+
+#appimage {
+        margin: 34px 0 34px 0;
+}
+
+.menuimage {
+        margin: 34px 0 34px 0;
+}
+
+/* format for the navigation bar */
+.navbar {
+    height:80px; 
+    background-color: #ffdb58;
+    display:inline-block;
+    width:960px;
+    margin: auto;
+    text-align: center;
+}
+
+/* change the format of the link when the cursor hovers over the nav bar items */
+.navbar ul {
+    list-style:none;
+    width:50%;
+    text-align:center;
+    margin:auto;
+    padding: 1% 0% 2% 10%;
+}
+.navbar ul li a {
+    float:left;
+    display:inline;
+    background-color:#2e2e2e;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    text-align:center;
+    text-decoration:none;
+    border:black solid 2px;
+    padding: 2.5% 5% 2% 5%;
+    font-size:20px;
+}
+.navbar ul li a:hover {
+    background-color:#ffdb58;
+    color: #000000;
+    font-size: 1.5em;
+}
+.aboutus {
+        color: white;
+        font-size: 1.5em;
+        font-family: 'Lato', sans-serif;
+        text-align:justify;
+        padding-bottom: 1.5%;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+}
+/* footer format to appear at the bottom of every page */
+
+footer { 
+        background-color:#ffdb58; 
+        color:#2e2e2e; 
+        width:960px;
+        height:80px;
+        margin:0 0 0 0;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        text-align:center;
+        clear:both;
+}
+
+footer p {
+        font-family:Lato, sans-serif;
+} 
+
+footer a {
+    color:#ffffff;
+}
+
+footer a:hover {
+    font-size:1.5em;
+    color:green;
+}
